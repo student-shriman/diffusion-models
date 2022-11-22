@@ -1,4 +1,0 @@
-
-
-class InputError(Exception):
-    pass

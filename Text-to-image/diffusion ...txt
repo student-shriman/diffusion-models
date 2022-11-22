@@ -1,0 +1,42 @@
+1. Text to screenplay using AI - https://www.deepstory.ai/ | https://www.shortlyai.com/
+
+  => https://www.deepstory.ai/                                   -     A story generator or Text generator ..
+  => https://www.shortlyai.com/                                  -     A story generator model
+  => https://rytr.me/comparisons/rytr-vs-shortly-ai              -     RyTr is better in multiple ways than shortly.ai.
+  => https://builtin.com/media-gaming/ai-movie-script
+
+2. Text to Images using AI - Pornpen, Imagen, Deepai, HotPot ai
+
+  =>  Pornpen is basically a platform for generating some hentai and animes adult contents by taking some Textual inputs.
+  =>  Imagen is a state-of-theart model for generating Images from language understanding or Textual inputs. It is published by Google research team and it uses T5 model for NLU.
+  =>  Deepai is an API for generating Images from Text.
+  =>  hotpot.ai is a platform for generating images, removing backgrounds or foregrounds, colorizing of images, restoring the old images, upscaling and enhancing images  etc. using GANs.
+
+3. Text to Video using AI - 
+
+  =>  https://makeavideo.studio/                       -         Make-A-Video is a state-of-the-art AI system that generates videos from text.
+  =>  https://phenaki.github.io/                       -         A model for generating videos from text, with prompts that can change over time, and videos that can be as long as
+                                                                    multiple minutes.
+   
+  =>  https://github.com/topics/text-to-video          -         A list of 21 github repo's related to generating images or videos with Text.
+  =>  https://www.youtube.com/watch?v=MmAJk2BD6WA      -         Make-a-video review video
+
+4. Images and video generation using AI -
+
+  =>  https://youtu.be/bT8e1EV5-ic                     -         Two minute papers - High-Resolution Image Synthesis with Latent Diffusion Models
+  =>  https://github.com/CompVis/stable-diffusion      -         Github repo for - High-Resolution Image Synthesis with Latent Diffusion Models
+  =>  https://imagen.research.google/                 
+
+5. Some other Text-to-Image and diffusion models
+
+  =>  🎓 "DreamArtist: Towards Controllable One-Shot Text-to-Image Generation via Contrastive Prompt-Tuning" with Stable-Diffusion-WebUI using Gradio SD Web UI.
+          💡 Stable-Diffusion-WebUI Extension Version: https://lnkd.in/dpvAjrgY,  Github - https://github.com/7eu7d7/DreamArtist-stable-diffusion
+
+  =>  Diffusion models - https://www.linkedin.com/posts/ashishpatel2604_week2-activity-6993080676761649152-90NG?utm_source=share&utm_medium=member_desktop
+  =>  History of diffusion models - https://www.linkedin.com/posts/ashishpatel2604_computervision-deeplearning-machinelearning-activity-6979671421484449792-4oVi?utm_source=share&utm_medium=member_desktop
+
+  =>  https://arxiv.org/pdf/2207.11148.pdf, http://infinite-nature-zero.github.io/
+
+  =>  Score-based Generative Modeling in Latent Space by NVIDIA - https://nvlabs.github.io/LSGM/
+  =>  Score-Based Generative Modeling with Critically-Damped Langevin Diffusion - https://nv-tlabs.github.io/CLD-SGM/
+  =>  Tackling the Generative Learning Trilemma with Denoising Diffusion GANs - https://nvlabs.github.io/denoising-diffusion-gan/

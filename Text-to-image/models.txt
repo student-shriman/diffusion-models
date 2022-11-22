@@ -1,0 +1,36 @@
+
+
+              ##################    ###############     Text to Image papers ..     #################    ####################
+
+ => Versatile Diffusion: Text, Images and Variations All in One Diffusion Model  -  https://paperswithcode.com/paper/versatile-diffusion-text-images-and
+ => Fast Text-Conditional Discrete Denoising on Vector-Quantized Latent Spaces  -   https://paperswithcode.com/paper/fast-text-conditional-discrete-denoising-on
+ => ERNIE-ViLG 2.0: Improving Text-to-Image Diffusion Model with Knowledge-Enhanced Mixture-of-Denoising-Experts - https://paperswithcode.com/paper/ernie-vilg-2-0-improving-text-to-image
+ => Character-Centric Story Visualization via Visual Planning and Token Alignment  -  https://paperswithcode.com/paper/character-centric-story-visualization-via
+ => What the DAAM: Interpreting Stable Diffusion Using Cross Attention  -  https://paperswithcode.com/paper/what-the-daam-interpreting-stable-diffusion
+ => Personalizing Text-to-Image Generation via Aesthetic Gradients  -  https://paperswithcode.com/paper/personalizing-text-to-image-generation-via
+ => Diffusion Models: A Comprehensive Survey of Methods and Applications  -  https://paperswithcode.com/paper/diffusion-models-a-comprehensive-survey-of
+ => Txt2Img-MHN: Remote Sensing Image Generation from Text Using Modern Hopfield Networks  -  https://paperswithcode.com/paper/txt2img-mhn-remote-sensing-image-generation
+ => An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion  -  https://paperswithcode.com/paper/an-image-is-worth-one-word-personalizing-text
+ => NUWA-Infinity: Autoregressive over Autoregressive Generation for Infinite Visual Synthesis  - https://paperswithcode.com/paper/nuwa-infinity-autoregressive-over
+ => Scaling Autoregressive Models for Content-Rich Text-to-Image Generation  -  https://paperswithcode.com/paper/scaling-autoregressive-models-for-content
+ => Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding - https://paperswithcode.com/paper/photorealistic-text-to-image-diffusion-models
+ => CogView2: Faster and Better Text-to-Image Generation via Hierarchical Transformers  -  https://paperswithcode.com/paper/cogview2-faster-and-better-text-to-image
+ => Hierarchical Text-Conditional Image Generation with CLIP Latents  -  https://paperswithcode.com/paper/hierarchical-text-conditional-image
+ => Make-A-Scene: Scene-Based Text-to-Image Generation with Human Priors  -  https://paperswithcode.com/paper/make-a-scene-scene-based-text-to-image
+ => CLIP-GEN: Language-Free Training of a Text-to-Image Generator with CLIP  -  https://paperswithcode.com/paper/clip-gen-language-free-training-of-a-text-to
+ => LatteGAN: Visually Guided Language Attention for Multi-Turn Text-Conditioned Image Manipulation  -  https://paperswithcode.com/paper/lattegan-visually-guided-language-attention
+ => High-Resolution Image Synthesis with Latent Diffusion Models  -  https://paperswithcode.com/paper/high-resolution-image-synthesis-with-latent
+ => GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models  -  https://paperswithcode.com/paper/glide-towards-photorealistic-image-generation
+ => CogView: Mastering Text-to-Image Generation via Transformers  -  https://paperswithcode.com/paper/cogview-mastering-text-to-image-generation
+ => Zero-Shot Text-to-Image Generation  -  https://paperswithcode.com/paper/zero-shot-text-to-image-generation
+ => TediGAN: Text-Guided Diverse Face Image Generation and Manipulation  -  https://paperswithcode.com/paper/tedigan-text-guided-diverse-image-generation
+
+
+             ##################    ###############     Text to Video papers ..     #################    ####################
+
+ => Phenaki: Variable Length Video Generation From Open Domain Textual Description  -  https://paperswithcode.com/paper/phenaki-variable-length-video-generation-from
+ => Make-A-Video: Text-to-Video Generation without Text-Video Data  -  https://paperswithcode.com/paper/make-a-video-text-to-video-generation-without
+ => CogVideo: Large-scale Pretraining for Text-to-Video Generation via Transformers  -  https://paperswithcode.com/paper/cogvideo-large-scale-pretraining-for-text-to
+ => NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion  -  https://paperswithcode.com/paper/nuwa-visual-synthesis-pre-training-for-neural
+ => StyleFaceV: Face Video Generation via Decomposing and Recomposing Pretrained StyleGAN3  -  https://paperswithcode.com/paper/stylefacev-face-video-generation-via
+ => NUWA-Infinity: Autoregressive over Autoregressive Generation for Infinite Visual Synthesis  -  https://paperswithcode.com/paper/nuwa-infinity-autoregressive-over
