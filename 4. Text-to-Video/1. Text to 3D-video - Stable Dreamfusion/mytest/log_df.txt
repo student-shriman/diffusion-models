@@ -1,0 +1,4 @@
+[INFO] Trainer: df | 2022-11-22_08-58-39 | cuda | fp16 | mytest
+[INFO] #parameters: 1815479
+[INFO] Loading latest checkpoint ...
+[WARN] No checkpoint found, model randomly initialized.

@@ -1,0 +1,25 @@
+{
+    "scene 1":
+    {
+        "image":"expansion of universe",
+        "tts":"In the early 1990s, one thing was fairly certain about the expansion of the universe."
+    },
+
+    "scene 2":
+    {
+        "video":"dark matter",
+        "tts":"It might have enough energy density to stop its expansion and recollapse,"
+    },
+
+    "scene 3":
+    {
+        "image":"gravity",
+        "tts":"but gravity was certain to slow the expansion as time went on."
+    },
+    "scene 4":
+    {
+        "video":"time",
+        "tts":"Granted, the slowing had not been observed, but, theoretically,"
+    }
+
+}

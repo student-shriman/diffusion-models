@@ -1,0 +1,80 @@
+= https://github.com/ashawkey/stable-dreamfusion =
+ 
+A pytorch implementation of text-to-3D dreamfusion, powered by stable diffusion!
+A bit like Dreamfields - https://www.youtube.com/watch?v=KZH_Hh4WyIY
+ 
+Some notes!
+* I'm using Anaconda to manage my virtual python environments as I have lots of Python things installed!
+You can use Anaconda too for FREE, just by downloading it from https://www.anaconda.com/
+Miniconda will work just as well :)
+ 
+* This uses the Diffusers implementation, so you'll need a huggingface account.
+Don't forget to run "huggingface-cli login" if you don't have your token saved!
+ 
+* This used up to 14 GB VRAM when running for me
+ 
+* It isn't fast ;)
+ 
+ 
+Option 1) Google Colab = a free, remote Linux system. No need to install anything. Works with a web browser.
+ 
+* Click the link
+* Change your Prompt Text
+* Press Ctrl+F9 or select "Run all" from the "Runtime" menu
+* Login to huggingface when prompted
+* Wait 1+ hours for it to finish :)
+* Enjoy!
+ 
+ 
+Option 2) Install and run locally
+ 
+== Download ==
+git clone https://github.com/ashawkey/stable-dreamfusion.git
+cd stable-dreamfusion/
+ 
+ 
+== New Python Environment ==
+conda create --name stable-dreamfusion python=3.9
+conda activate stable-dreamfusion
+ 
+ 
+== Install ==
+* I like to use the latest PyTorch with CUDA 11 support, as per https://pytorch.org/, as I'm using CUDA 11.8
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+pip install -r requirements.txt
+ 
+# (optional) install nvdiffrast for exporting textured mesh (--save_mesh)
+pip install git+https://github.com/NVlabs/nvdiffrast/
+ 
+# (optional) install the tcnn backbone if using --tcnn. This will take a few minutes to build.
+pip install git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+ 
+# (optional) install CLIP guidance for the dreamfield setting
+pip install git+https://github.com/openai/CLIP.git
+ 
+# install all extension modules (just install these manually if using MS Windows)
+bash scripts/install_ext.sh
+ 
+ 
+== Run ==
+Some example runs!
+ 
+### stable-dreamfusion setting
+## train with text prompt
+# `-O` equals `--cuda_ray --fp16 --dir_text`
+# This bit takes about an hour:
+python main.py --text "a high quality, detailed photo of a halloween pumpkin" --workspace mytest -O
+ 
+## after the training is finished:
+# test (exporting 360 video, and an obj mesh with png texture)
+python main.py --workspace mytest -O --test --save_mesh
+ 
+# test with a GUI (free view control!)
+python main.py --workspace mytest -O --test --gui
+ 
+### dreamfields with CLIP setting (again, the first bit takes ages)
+python main.py --text "a high quality, detailed photo of a halloween pumpkin" --workspace mytest_clip -O --guidance clip --seed 123 --iters 18000 --lr 2e-3
+python main.py --text "a high quality, detailed photo of a halloween pumpkin" --workspace mytest_clip -O --test --gui --guidance clip
+ 
+ 
+Enjoy! :)
